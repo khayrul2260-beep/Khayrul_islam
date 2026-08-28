@@ -1500,7 +1500,15 @@
 ========================================================= */
 
 @media (max-width: 400px) {
-
+    .preloader{
+        max-width: calc(100% - 24px);
+    }
+    .scroll-progress{
+        max-width: calc(100% - 24px);
+    }
+    .navbar{
+        max-width: calc(100% - 24px);
+    }
     .container {
         width:
             calc(100% - 24px);
